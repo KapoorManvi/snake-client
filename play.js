@@ -8,9 +8,9 @@ console.log('Connecting ...');
 const { setupInput } = require('./input');
 
 console.log(connect);
-connect();
+// connect();
 
-setupInput();
+setupInput(connect());
 
 
 
